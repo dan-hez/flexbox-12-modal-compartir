@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #606265;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 360px;
+    height: 230px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 1px rgb(59, 60, 63);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.close{
+    position: relative;
+    left: 155px;
+    top: 15px;
+}
+.message{
+    padding: 25px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.buttons{
+    width: 300px;
+    height: 35px;
+    font-size: 9px;
+    color: #fff;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fb, .tw, .rd{
+    width: 90px;
+    height: 20px;
+    border-radius: 3px;
+    padding: 5px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fb{
+    background-color: #3b5998;
+}
+.tw{
+    background-color: #00acee;
+}
+.rd{
+    background-color: #111;
+}
+.n{
+    font-weight: bold;
+    font-size: 12px;
+}
+.shares{
+    font-size: 12px;
+}
+.link-close{
+    color: rgb(241, 19, 19);
+    font-size: 9px;
+    margin-top: 5px;
+}
+.span{
+    width: 100px;
+    height: 20px;
+}
